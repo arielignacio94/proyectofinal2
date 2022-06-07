@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 10px;
+}
+h1 {
+    margin: 1rem;
+    padding: 0,7rem;
+    color: brown;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+ }
+
+body{
+    background-image: url(https://images.pexels.com/photos/21393/pexels-photo.jpg?cs=srgb&dl=pexels-math-21393.jpg&fm=jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+
+}
+.container{
+    background-color: black;
+}
+.row{
+background-image: var(--bs-gradient);
+}
+
+footer{
+    margin: 20px;
+    background-color: white;
+   
+    opacity: .5;
+    padding: 1rem;
+    width: 100%;
+    color: #8d8c86;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+
+}
+footer .redesSociales a{
+    color: #8d8c86;
+    margin left: 1.2rem;
+    width: 30px;
+}
+footer .redesSociales img{
+    width: 60px;
+    opacity: 1;
+     }
